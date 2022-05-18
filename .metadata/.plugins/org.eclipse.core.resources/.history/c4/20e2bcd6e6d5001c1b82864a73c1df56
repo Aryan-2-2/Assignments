@@ -1,0 +1,17 @@
+package com.masai;
+
+public class switch_Assignment {
+
+	public static void main(String[] args) {
+    
+		String city = "mumbai";
+        
+		switch(city){
+		case "mumbai" :
+			System.out.println("hey");
+			
+		}
+		
+	}
+
+}

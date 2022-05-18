@@ -1,0 +1,11 @@
+package com.masai;
+
+public class Demo {
+	
+	
+	public static void main(String[] args) {
+		byte x = 10;
+		byte y = (byte) (x+1);
+		System.out.println(y);
+	}
+}
