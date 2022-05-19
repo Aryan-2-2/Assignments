@@ -35,22 +35,13 @@ package com. masai;
 
 public class StaticVsNonStatic {
 //x is a non-static variable;
-	
 	int x  = 10;
 	
-	//we can directly make it static also ;
-	
-	// static int x =10;
-	
-	
 	public static void main(String[] args) {
-		
 	//we can't assess x directly here it will give us CE;
 	//so in order to assess we can create a object here;
-		
 		StaticVsNonStatic NonStatic = new StaticVsNonStatic();
 		 
-		//now we can assess it
 		System.out.println(NonStatic.x);
 	}
 }

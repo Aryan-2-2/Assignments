@@ -19,7 +19,7 @@ public class VowelOrConsonant {
 	}
 	
 	else {
-		System.out.println("Error! Not a vaild character");
+		System.out.println("Not a vaild character");
 	}
 	}
 	
