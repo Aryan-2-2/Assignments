@@ -2,9 +2,7 @@ package com.masai;
 
 public class Student {
 
-     int roll;
-     String name;
-     int marks;
+    
      
      void displayStudentDetails(int roll, String name, int marks ) {
     	System.out.println("Roll No :"+ roll); 
