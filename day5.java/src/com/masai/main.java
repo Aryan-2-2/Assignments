@@ -13,10 +13,12 @@ public class main {
 		System.out.println("Enter Id ");
 		e1.setEmployeeId(scanner.nextInt());
 		
-		System.out.println("Enter name");
-		e1.setEmployeeName(scanner.next());
-		
 		scanner.nextLine();
+		
+		System.out.println("Enter name");
+		e1.setEmployeeName(scanner.nextLine());
+		
+		
 		
 		System.out.println("Enter Salary");
 		e1.setSalary(scanner.nextDouble());

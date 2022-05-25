@@ -1,9 +1,0 @@
-package com.masai;
-
-public class Demo {
-
-	int mark;
-	public static void main(String[] args) {
-		System.out.println(mark);
-	}
-}
