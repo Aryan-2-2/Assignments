@@ -24,16 +24,11 @@ public class Prime {
 			}
 			if(count == 2 ) {
 
-      for(int j = 0 ; j<length; j++) {
-	      newArr[j] = inputArray[j];
-	     System.out.println(newArr);
+     
     }
-      return newArr;
-      }
-			else {
-				 int[] e = new int[5];
-				 return e;
-			}
+    
+      
+			
 			
 		}
 		public static void main(String[] args){
