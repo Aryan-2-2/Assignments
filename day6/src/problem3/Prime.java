@@ -15,6 +15,7 @@ public class Prime {
 			
 			int length = inputArray.length;
 			int[] newArr = new int[50];
+			int k = 0;
 			
 			int count =0;
 			for(int i=2 ; i<length; i++) {
@@ -23,8 +24,8 @@ public class Prime {
 				}
 			}
 			if(count == 2 ) {
-
-     
+             
+             newArr[k++]=length;
     }
     
       

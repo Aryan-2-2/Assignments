@@ -44,14 +44,20 @@ class Main{
 	
 	 public static void main(String[] args) {
 		
-		 Animal[] animal = new Animal[3];
 		 
-		 Dog d1 = new Dog();
-		 
-		 animal[0] = d1;
-		 
-		for(int i=0 ; i<animal.length; i++) {
-			System.out.println(animal[i]);
+		 Animal [] Animal = new Animal[3];
+		 Animal[0] = new Dog();
+
+		 Animal[1] = new Cat();
+
+		 Animal[2] = new Tiger();
+
+
+		 for(Animal animal: Animal) {
+		 animal.makeNoise();
+		 animal.eat();
+		 animal.walk();
+		 System.out.println("===================================");
 		}
 	}
 }
