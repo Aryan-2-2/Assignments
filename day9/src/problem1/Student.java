@@ -50,20 +50,10 @@ public Student() {
 
 
 
-public Student(int roll, String name, int marks, char grade) {
-	super();
-	this.roll = roll;
-	this.name = name;
-	this.marks = marks;
-	this.grade = grade;
-}
 
 
 
-@Override
-public String toString() {
-	return "Student [roll=" + roll + ", name=" + name + ", marks=" + marks + ", grade=" + grade + "]";
-}
+
 
 
 
@@ -95,27 +85,34 @@ public void displayDetails() {
 }
 
 private void calculateGrade(int m) {
-	
-	if(m>=500) {
-		System.out.println("Grade A");
-	}
-	else if(m<500 && m>=400) {
-		System.out.println("Grade B");
-	}
-	else if(m<400) {
-		System.out.println("Grade C");
-	}
+}
+
+
+public Student(int roll, String name, int marks, char grade) {
+	super();
+	this.roll = roll;
+	this.name = name;
+	this.marks = marks;
+	this.grade = grade;
+}
+@Override
+public String toString() {
+	return "Student [roll=" + roll + ",;"
+			+ " name=" + name + ", marks=" + marks + ", grade=" + grade + "]";
 }
 	
 }
+
 
 class Main{
 	
 	public static void main(String[] args) {
 		
 		Student s1 = new Student();
+		Student s2 = new Student();
 		
 	    s1.displayDetails();
-	    System.out.println(s1);
+	    System.out.println(s2);
+	
 	}
 }
