@@ -5,7 +5,7 @@ public class Main {
 	public static Person generatePerson(Person person) {
 		
 		
-		Student s1 = new Student(111,"JAVA",50000);
+		Student s1 = new Student(111,"JAVA",5000);
 		return s1;	
 		
 		
