@@ -97,8 +97,7 @@ public Student(int roll, String name, int marks, char grade) {
 }
 @Override
 public String toString() {
-	return "Student [roll=" + roll + ",;"
-			+ " name=" + name + ", marks=" + marks + ", grade=" + grade + "]";
+	return "Student [roll=" + roll + ", name=" + name + ", marks=" + marks + ", grade=" + grade + "]";
 }
 	
 }
@@ -109,7 +108,7 @@ class Main{
 	public static void main(String[] args) {
 		
 		Student s1 = new Student();
-		Student s2 = new Student();
+		Student s2 = new Student(1,"Gaurav",9,'A');
 		
 	    s1.displayDetails();
 	    System.out.println(s2);

@@ -32,9 +32,7 @@
     <fullyQualifiedTypeName name="problem4.Animal"/>
     <fullyQualifiedTypeName name="problem4.Dog"/>
     <fullyQualifiedTypeName name="problem4.Bank"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.w3c.dom.bootstrap.DOMImplementationRegistry"/>
-    <fullyQualifiedTypeName name="problem1.Student"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -43,4 +41,8 @@
     <fullyQualifiedTypeName name="java.security.InvalidAlgorithmParameterException"/>
     <fullyQualifiedTypeName name="problem2.Parent"/>
     <fullyQualifiedTypeName name="problem2.Child"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="problem1.Car"/>
+    <fullyQualifiedTypeName name="problem1.Engine"/>
+    <fullyQualifiedTypeName name="problem1.Student"/>
 </qualifiedTypeNameHistroy>
