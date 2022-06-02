@@ -5,8 +5,13 @@ public class Main {
 	public static Person generatePerson(Person person) {
 		
 		
+<<<<<<< HEAD
+
+		return person;	
+=======
 		Student s1 = new Student(111,"JAVA",5000);
 		return s1;	
+>>>>>>> ba5f0c9f2278e44f598cb509098bc8a60ab9deac
 		
 		
 		
@@ -21,20 +26,23 @@ public class Main {
 		
 		Person p1 = new Person();
 		
-		Person newStudent = generatePerson(new Student());
-
-		Person newTeacher = generatePerson(new Instructor());
-
-		System.out.println(newStudent);
-		
-		p1.getAddress().setCity("kolkata");
+	     p1.setAddress(new Address());
+	
+	 	p1.getAddress().setCity("kolkata");
 		p1.getAddress().setState("West bengal");
 		p1.getAddress().setPincode("70000");
 		
-		System.out.println(p1.getAddress().getCity());
-		System.out.println(p1.getAddress().getPincode());
-		System.out.println(p1.getAddress().getState());
 		
-		System.out.println(newTeacher);
+		
+		
+	     
+		Person newStudent = generatePerson(new Student(1,"java",5000));
+
+		Person newTeacher = generatePerson(new Instructor(104,8000000));
+
+		System.out.println(newStudent + p1.getAddress().getCity()+p1.getAddress().getPincode()+p1.getAddress().getState());
+		System.out.println(newTeacher + p1.getAddress().getCity()+p1.getAddress().getPincode()+p1.getAddress().getState());
+		
+	
 		}
 }

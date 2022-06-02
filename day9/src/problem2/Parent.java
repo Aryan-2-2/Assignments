@@ -55,7 +55,7 @@ public class Parent {
      System.out.println("Enter a Number between 1 to 10");
      int num = scanner.nextInt();
 		
-     Parent parent = new Child(num);
+     Parent parent = new Child();
      
     parent.method1(num);
      
