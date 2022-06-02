@@ -5,13 +5,8 @@ public class Main {
 	public static Person generatePerson(Person person) {
 		
 		
-<<<<<<< HEAD
 
 		return person;	
-=======
-		Student s1 = new Student(111,"JAVA",5000);
-		return s1;	
->>>>>>> ba5f0c9f2278e44f598cb509098bc8a60ab9deac
 		
 		
 		
