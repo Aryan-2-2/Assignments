@@ -5,7 +5,7 @@ public interface X {
 	public abstract void funA();
 	
 	
-     default	void funB() {
+     default void funB() {
     	System.out.println("inside funB of X");
 	}
     
