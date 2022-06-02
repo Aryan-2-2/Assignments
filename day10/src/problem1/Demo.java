@@ -9,7 +9,7 @@ public class Demo {
 	
 				
 	     if(amount>=1000) {
-			Hotel tajHotel = new TajHotel();
+	    	 TajHotel tajHotel = new TajHotel();
 			return tajHotel;
 		}
 		else if(amount>=200 && amount<1000 ) {
