@@ -15,5 +15,5 @@ public interface Y {
    }
 
 
-void funB();
+
 }
