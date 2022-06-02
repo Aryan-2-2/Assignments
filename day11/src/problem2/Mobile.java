@@ -8,7 +8,7 @@ public class Mobile {
 	
 	 
 	 
-       void	searchOutdatedModel(String... arr){
+       void	searchOutdatedModel(String companyName,String... arr){
     	   
     	  boolean flag  =false;
     	   
@@ -42,6 +42,6 @@ class Main{
 	    
 	    Mobile mobile = new Mobile();
 	    
-	    mobile.searchOutdatedModel("note4","note5","note10");
+	    mobile.searchOutdatedModel("Samsung","note4","note5","note10");
 	}
 }

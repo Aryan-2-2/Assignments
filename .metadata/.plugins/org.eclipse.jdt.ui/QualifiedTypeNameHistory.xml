@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Number"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinTask"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.metal.MetalIconFactory.FileIcon16"/>
-    <fullyQualifiedTypeName name="com.masai.Student"/>
-    <fullyQualifiedTypeName name="java.nio.charset.IllegalCharsetNameException"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="com.student.Student"/>
     <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
@@ -46,18 +40,24 @@
     <fullyQualifiedTypeName name="java.security.PKCS12Attribute"/>
     <fullyQualifiedTypeName name="question3.Car"/>
     <fullyQualifiedTypeName name="java.awt.Taskbar.State"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="question4.Student"/>
     <fullyQualifiedTypeName name="question4.Instructor"/>
     <fullyQualifiedTypeName name="question4.Person"/>
     <fullyQualifiedTypeName name="question4.Address"/>
     <fullyQualifiedTypeName name="problem2.ScienceStudent"/>
     <fullyQualifiedTypeName name="problem2.Student"/>
-    <fullyQualifiedTypeName name="problem1.Demo"/>
     <fullyQualifiedTypeName name="problem1.Hotel"/>
     <fullyQualifiedTypeName name="problem1.TajHotel"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="problem2.Mobile"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="problem3.IPL"/>
+    <fullyQualifiedTypeName name="problem3.Stadium"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthLookAndFeel"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="problem1.ZImpl"/>
+    <fullyQualifiedTypeName name="problem1.Demo"/>
+    <fullyQualifiedTypeName name="problem1.X"/>
 </qualifiedTypeNameHistroy>
