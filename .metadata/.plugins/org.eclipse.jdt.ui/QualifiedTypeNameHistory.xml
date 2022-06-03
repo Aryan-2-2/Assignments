@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.student.Student"/>
-    <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
-    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
     <fullyQualifiedTypeName name="java.io.UTFDataFormatException"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="Problem3.Account"/>
@@ -13,7 +10,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.time.Year"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="problem1.Bird"/>
     <fullyQualifiedTypeName name="problem1.Parrot"/>
     <fullyQualifiedTypeName name="problem4.Animal"/>
@@ -50,9 +46,6 @@
     <fullyQualifiedTypeName name="problem1.TajHotel"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="problem2.Mobile"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="problem3.IPL"/>
     <fullyQualifiedTypeName name="problem3.Stadium"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthLookAndFeel"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="problem1.ZImpl"/>
     <fullyQualifiedTypeName name="problem1.Demo"/>
     <fullyQualifiedTypeName name="problem1.X"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.time.zone.ZoneOffsetTransitionRule"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

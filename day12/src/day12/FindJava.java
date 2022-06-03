@@ -11,7 +11,19 @@ public class FindJava {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Enter 1 for Default Search, Enter 2 For Dynamic Search");
+		
+		for(int i=1 ; i<=5; i++) {
+			
+
+			if(i==5) {
+				System.out.println("Last Entrie" +" :"+"Enter 1 for Default Search, Enter 2 For Dynamic Search");
+			}
+			else {
+				System.out.println("Entrie No_" +i+" :"+"Enter 1 for Default Search, Enter 2 For Dynamic Search");
+
+			}
+			
+		
 		int num = scanner.nextInt();
 		
 		int getNum = num;
@@ -68,11 +80,16 @@ public class FindJava {
 			}
 	        
 			System.out.println("The no of occurrences: "+count);
-			
 		}
 		
 		else {
 			System.err.println("Enter a Valid Number 1 or 2");
+		
+			
 		}
+		
+	
+	}
+		System.err.println("Enough Entries Please Run the code again for new entries");
 	}
 }
