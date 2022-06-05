@@ -1,7 +1,7 @@
 package day13;
+import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 public class ExceptionHandling {
 
@@ -41,13 +41,17 @@ public class ExceptionHandling {
 	  
 		
 		
-	}catch (NullPointerException npl) {
+	}catch(InputMismatchException str) {
+		System.out.println("Please enter a valid number");
+	}
+	catch (NullPointerException npl) {
 	
 		System.out.println("String Value is null");
 	
 	     System.out.println("Error happend because of: "+npl.getMessage());
 
 	}
+	
 	
 	catch (ArithmeticException ae) {
 	     System.out.println("num2 should not be 0");
