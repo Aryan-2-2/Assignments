@@ -28,8 +28,7 @@ public class Main {
 		p1.getAddress().setPincode("70000");
 		
 		
-		
-		
+	
 	     
 		Person newStudent = generatePerson(new Student(1,"java",5000));
 

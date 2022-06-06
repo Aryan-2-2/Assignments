@@ -1,7 +1,7 @@
 package problem2;
 
 import java.util.Scanner;
-import java.util.jar.Attributes.Name;
+
 
 public class AllStudents {
 
@@ -74,7 +74,7 @@ public class AllStudents {
 		else {
 			System.err.println("please enter these two stream only which is history and science.");
 		     System. err.println("Make sure You are Writing history not History and same for science.");
-		     System.err.println("only small cases letter will be entertained.");
+		     System.err.println("only small case letter will be entertained.");
 		}
 		
 		

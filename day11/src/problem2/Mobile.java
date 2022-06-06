@@ -32,8 +32,6 @@ break;
     	}
 }
 }
-
-
 class Main{
 	
 	public static void main(String[] args) {
@@ -45,3 +43,5 @@ class Main{
 	    mobile.searchOutdatedModel("Samsung","note4","note5","note10");
 	}
 }
+
+
