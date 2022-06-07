@@ -7,7 +7,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		Loan l1 = new Loan();
+	     
+		Loan l1 = Loan.getLoanObject();
+
 		
 		PermanentEmployee p1 = new PermanentEmployee();
 		TemporaryEmployee t1 = new TemporaryEmployee();

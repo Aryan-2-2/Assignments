@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="problem1.Car"/>
-    <fullyQualifiedTypeName name="problem1.Engine"/>
-    <fullyQualifiedTypeName name="problem1.Student"/>
     <fullyQualifiedTypeName name="question1.Animal"/>
     <fullyQualifiedTypeName name="question1.Engine"/>
     <fullyQualifiedTypeName name="java.security.spec.DSAGenParameterSpec"/>
@@ -50,14 +47,17 @@
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="DAY11.Stadium"/>
     <fullyQualifiedTypeName name="DAY11.Ipl"/>
-    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.zip.CheckedOutputStream"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="DAY10.RoadSideHotel"/>
     <fullyQualifiedTypeName name="DAY10.Demo"/>
     <fullyQualifiedTypeName name="DAY10.Hotel"/>
     <fullyQualifiedTypeName name="DAY10.TajHotel"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="question4.Customer"/>
+    <fullyQualifiedTypeName name="question2.Loan"/>
 </qualifiedTypeNameHistroy>
