@@ -43,6 +43,7 @@ public class ExceptionHandling {
 		
 	}catch(InputMismatchException str) {
 		System.out.println("Please enter a valid number");
+		System.out.println(str.getMessage());
 	}
 	catch (NullPointerException npl) {
 	
@@ -59,11 +60,7 @@ public class ExceptionHandling {
 	     System.out.println("Error happend because of: "+ae.getMessage());
 		}
 	
-	catch (Exception e) {
-		
-		System.out.println("somthing is wrong please read the below line");
-		System.out.println(e.getMessage());
-	}
+	
 	
 	System.out.println("end of main");
 	}
