@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="question3.Car"/>
-    <fullyQualifiedTypeName name="java.awt.Taskbar.State"/>
-    <fullyQualifiedTypeName name="question4.Student"/>
-    <fullyQualifiedTypeName name="question4.Instructor"/>
-    <fullyQualifiedTypeName name="question4.Person"/>
-    <fullyQualifiedTypeName name="question4.Address"/>
-    <fullyQualifiedTypeName name="problem2.ScienceStudent"/>
     <fullyQualifiedTypeName name="problem2.Student"/>
     <fullyQualifiedTypeName name="problem1.Hotel"/>
     <fullyQualifiedTypeName name="problem1.TajHotel"/>
@@ -52,12 +45,19 @@
     <fullyQualifiedTypeName name="problem3.Final"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="problem1.Account"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="problem2.InvalidCountryException"/>
     <fullyQualifiedTypeName name="problem2.UserRegistration"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="problem1.InsufficientFundsException"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatterBuilder"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.security.Identity"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
+    <fullyQualifiedTypeName name="java.awt.image.AbstractMultiResolutionImage"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="day15.InvalidDateFormat"/>
 </qualifiedTypeNameHistroy>
