@@ -9,6 +9,7 @@ import java.time.temporal.ChronoUnit;
 public class EmployeeBonus {
 
 	
+<<<<<<< HEAD
    static	double bonusCheck(String doj) throws InvalidAgeException {
 		
 	try {
@@ -16,6 +17,14 @@ public class EmployeeBonus {
 		LocalDate joinDate = LocalDate.parse(doj, dtf);
 		
 		LocalDate ld = LocalDate.now();
+=======
+  public static	double bonusCheck(String doj) throws InvalidAgeException {
+		
+	try {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+		LocalDate ld = LocalDate.now();
+		LocalDate joinDate = LocalDate.parse(doj, dtf);
+>>>>>>> 7df58f116c93b58cff564777da3cf752713552c1
 		
 		
 		if(joinDate.isAfter(ld)) {
@@ -48,7 +57,11 @@ public class EmployeeBonus {
 	}
 	
 	
+<<<<<<< HEAD
 	
+=======
+		
+>>>>>>> 7df58f116c93b58cff564777da3cf752713552c1
 		
 	}
 }

@@ -3,33 +3,46 @@ package question3;
 public class OLA {
 	public Car bookCar(int numberOfPassenger, int numberOfKMs) {
 		
-		HatchBack hatchBack = new HatchBack();
-		Sedan sedan = new Sedan();
+		
+		
 		
 		if(numberOfPassenger<=3) {
+			HatchBack hatchBack = new HatchBack();
+			hatchBack.setNumberOfPassenger(numberOfPassenger);
+			hatchBack.setNumberOfKms(numberOfKMs);
 			return hatchBack;
 		}
 		else {
+			Sedan sedan = new Sedan();
+			sedan.setNumberOfKms(numberOfKMs);
+			sedan.setNumberOfPassenger(numberOfPassenger);
 			return sedan;
 		}
 	}
 	
 
 	
-	public int calculateBill(int x) {
+	public int calculateBill(Car car) {
 		
-		Car c1 = new Car();
-		HatchBack hatchBack = new HatchBack();
-		Sedan sedan = new Sedan();
+	
+	     if(car instanceof HatchBack) {
+	    	 HatchBack h1 = (HatchBack)car;
+		  
+		  int kms = h1.getNumberOfKms();
+		  int fare = h1.farePerKm;
+		  
+		  return kms*fare;
+	  }
+	  else {
+		  Sedan s1 = (Sedan)car;
+		 
+		 int kms = s1.getNumberOfKms();
+		 int fare = s1.farePerKm;
+		 
+		 return kms*fare;
+	  }
 		
-		if(x<=3) {
-		int	a = (15*c1.getNumberOfKms());
-			return a;
-		}
-		else {
-		int	b = (20*c1.getNumberOfKms());
-		return b;
-		}
+	
 	
 		
 	}
